@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Jackson Naik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Screen-sized clip so the wide world never widens the page (mobile zoom-out) -->
+    <div id="stage">
+        <canvas id="game" aria-hidden="true"></canvas>
+
+        <!-- Content layer: moves with the camera, one slot per floor -->
+        <main id="overlay">
+            <section class="floor-slot" data-floor="0"></section>
+            <section class="floor-slot" data-floor="1"></section>
+            <section class="floor-slot" data-floor="2"></section>
+            <section class="floor-slot" data-floor="3"></section>
+        </main>
+    </div>
+
+    <nav id="links" aria-label="Resume and contact"></nav>
+
+    <div id="hint" class="nes-box"></div>
+
+    <div id="dpad" aria-hidden="true">
+        <button class="dpad-btn dpad-up" data-key="up">&#9650;</button>
+        <button class="dpad-btn dpad-left" data-key="left">&#9664;</button>
+        <span class="dpad-center"></span>
+        <button class="dpad-btn dpad-right" data-key="right">&#9654;</button>
+        <button class="dpad-btn dpad-down" data-key="down">&#9660;</button>
+    </div>
+
+    <div id="action-pad" aria-hidden="true">
+        <button class="action-btn" data-key="action">A</button>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+CREDITS
+=======
+
+Fonts
+-----
+Glametrix by Gluk
+https://www.fontspace.com/gluk
+Licence: SIL Open Font License (see fonts/glametrix-font/misc/)
+Used for: regular text
+
+Aladin by Sorkin Type
+https://www.fontspace.com/aladin-font-f23280
+Licence: SIL Open Font License (served by Google Fonts)
+Used for: my name in the intro heading
